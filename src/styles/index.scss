@@ -1,17 +1,21 @@
-.page {
-  margin: 0;
-  font-family: Roboto, sans-serif;
+* {
   box-sizing: border-box;
-  background-color: #bdb39d58;
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  font-family: Roboto, sans-serif;
 }
 
 .card {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
   border-radius: 5px;
   background-color: #fff;
-  height: 406px;
-  width: 198px;
+  height: 408px;
+  width: 200px;
   border: 1px solid #f3f3f3;
 
   &__image {
