@@ -31,8 +31,8 @@
   &__chapter {
     margin: 40px 16px 4px;
     text-align: left;
-    min-width: 166px;
-    min-height: 36px;
+    width: 166px;
+    height: 36px;
     font-weight: $font-weight-500;
     font-size: 12px;
     line-height: 18px;
@@ -48,6 +48,16 @@
     font-size: 10px;
     line-height: 14px;
     color: $color-lite-text;
+  }
+
+  &__rating-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 166px;
+    height: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
   }
 
   &__price {
@@ -92,15 +102,12 @@
     font-size: 14px;
     line-height: 16px;
     cursor: pointer;
+    font-family: inherit;
 
     &:hover {
       background-color: #fff;
       color: #00acdc;
-      font-weight: $font-weight-700;
-      font-size: 14px;
-      line-height: 16px;
       border: 1px solid #00acdc;
-      cursor: pointer;
     }
   }
 }
