@@ -91,10 +91,11 @@
     justify-content: center;
     background-color: #00acdc;
     border-radius: 5px;
-    min-width: 166px;
-    min-height: 40px;
+    width: 166px;
+    height: 40px;
     margin-left: 16px;
     margin-right: 16px;
+    margin-bottom: 15px;
     border: 1px solid transparent;
 
     color: #fff;
@@ -107,7 +108,6 @@
     &:hover {
       background-color: #fff;
       color: #00acdc;
-      border: 1px solid #00acdc;
     }
   }
 }
